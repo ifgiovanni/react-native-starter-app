@@ -1,2 +1,2 @@
 export { TabNavigation } from './TabNavigation';
-export { LeftNavigation } from './LeftNavigation';
+export { DrawerNavigation } from './DrawerNavigation';
