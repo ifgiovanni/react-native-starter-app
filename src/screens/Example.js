@@ -1,10 +1,11 @@
 import React from 'react';
 import { View, Text } from 'react-native';
+import { TabNavigation } from '../navigation'
 
 export default function Home() {
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Example Screen</Text>
-    </View>
+    <>
+      <TabNavigation />
+    </>
   );
 }
