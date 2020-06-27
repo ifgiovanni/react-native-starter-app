@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Icon from 'react-native-ionicons'
 import { createStackNavigator} from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
