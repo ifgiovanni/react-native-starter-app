@@ -28,7 +28,7 @@ const Header = (props) => (
             //borderWidth: 1,
             //borderColor: 'red'
         }}>
-        <Text style={{ backgroundColor: '#212121', color: '#FFFFFF', paddingLeft: 20, paddingRight: 20, paddingTop: 5, paddingBottom: 5, borderRadius: 50}}>SOMENTHING</Text>
+        <Text style={{ backgroundColor: '#212121', color: '#FFFFFF', paddingLeft: 7, paddingRight: 7, paddingTop: 3, paddingBottom: 3, borderRadius: 50}}><Icon ios="ios-infinite" android="md-infinite" size={25} /></Text>
         </View>
         <View style={{
             height: 55,
