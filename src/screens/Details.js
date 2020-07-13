@@ -5,7 +5,6 @@ import Header from '../components/Header'
 export default function Details() {
   return (
     <>
-    <Header />
     <View style={{ backgroundColor: '#fafafa', flex: 1, justifyContent: 'center', alignItems: 'center' }}>
       <Text>Details Screen</Text>
       <ActivityIndicator/>

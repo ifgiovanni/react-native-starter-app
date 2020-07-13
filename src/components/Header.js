@@ -9,7 +9,9 @@ import Icon from 'react-native-ionicons';
 
 const Header = (props) => (
     <View style={{ flexDirection: 'row', flex: 0, marginTop: 5 }}>
-        <TouchableOpacity style={{
+        <TouchableOpacity 
+        onPress ={ ( ) => props.navigation.openDrawer()}
+        style={{
             height: 55,
             backgroundColor: '#FAFAFA', 
             width: '20%',

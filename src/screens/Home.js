@@ -46,7 +46,7 @@ import {Colors,Dialog, Badge,FeatureHighlight, Button} from 'react-native-ui-lib
   render() {
   return (
     <>
-    <Header />
+    <Header navigation={this.props.navigation}/>
     <View style={{ flex: 1, backgroundColor: '#fafafa', }}> 
       <CardWithoutBackground>
       <CountdownCircleTimer
