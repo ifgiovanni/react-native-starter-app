@@ -1,10 +1,14 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { ActivityIndicator, View, Text } from 'react-native';
+import Header from '../components/Header'
 
 export default function Details() {
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+    <>
+    <View style={{ backgroundColor: '#fafafa', flex: 1, justifyContent: 'center', alignItems: 'center' }}>
       <Text>Details Screen</Text>
+      <ActivityIndicator/>
     </View>
+    </>
   );
 }
